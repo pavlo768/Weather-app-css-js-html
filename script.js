@@ -1,6 +1,4 @@
-require('dotenv').config();
-
-const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+const apiKey = "dabf10f8041f12ff5c8acc58151e6f5d";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
